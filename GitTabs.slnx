@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="GitTabs/GitTabs.csproj">
+    <Deploy />
+  </Project>
+</Solution>
