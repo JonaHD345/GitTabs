@@ -3,7 +3,8 @@
   <Metadata>
     <Identity Id="GitTabs.1b119075-9f54-467d-aeff-e616db27c5a9" Version="1.0" Language="en-US" Publisher="GitTabs" />
     <DisplayName>GitTabs</DisplayName>
-    <Description>Empty VSIX Project.</Description>
+    <Description>Automatically saves and restores open document tabs per git branch. Switch branches without losing your workspace – your tabs are saved and restored instantly.</Description>
+    <Tags>git, tabs, branch, productivity, workspace</Tags>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.14, )">
