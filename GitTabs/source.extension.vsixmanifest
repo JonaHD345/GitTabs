@@ -1,10 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
   <Metadata>
-    <Identity Id="GitTabs.1b119075-9f54-467d-aeff-e616db27c5a9" Version="1.0" Language="en-US" Publisher="GitTabs" />
+    <Identity Id="GitTabs.1b119075-9f54-467d-aeff-e616db27c5a9" Version="1.0.0" Language="en-US" Publisher="JonaHD345" />
     <DisplayName>GitTabs</DisplayName>
-    <Description>Automatically saves and restores open document tabs per git branch. Switch branches without losing your workspace – your tabs are saved and restored instantly.</Description>
-    <Tags>git, tabs, branch, productivity, workspace</Tags>
+    <Description xml:space="preserve">Automatically saves and restores open document tabs per git branch. Switch branches without losing your workspace — your tabs are saved and restored instantly.
+
+Features:
+• Automatic tab save &amp; restore on branch switch
+• Zero startup impact (AsyncPackage with background loading)
+• Git worktree and detached HEAD support
+• Smart new-branch behavior (keeps current tabs)
+• Per-solution isolation
+• Output Window diagnostics</Description>
+    <MoreInfo>https://github.com/JonaHD345/GitTabs</MoreInfo>
+    <License>LICENSE.txt</License>
+    <GettingStartedGuide>https://github.com/JonaHD345/GitTabs#-getting-started</GettingStartedGuide>
+    <ReleaseNotes>https://github.com/JonaHD345/GitTabs/releases</ReleaseNotes>
+    <Icon>icon.png</Icon>
+    <PreviewImage>preview.png</PreviewImage>
+    <Tags>git, tabs, branch, productivity, workspace, documents, restore, save, branch-switch, tab-management</Tags>
+    <Categories>Coding,Source Control</Categories>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.14, )">
